@@ -1,0 +1,19 @@
+﻿{
+  "type": "record",
+  "name": "UserLoginEvent",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis"
+    },
+    {
+      "name": "userID",
+      "type": "string"
+    },
+    {
+      "name": "wasSuccessful",
+      "type": "boolean"
+    }
+  ]
+}
