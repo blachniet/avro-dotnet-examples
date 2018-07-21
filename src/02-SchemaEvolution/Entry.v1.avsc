@@ -1,0 +1,11 @@
+﻿{
+  "type": "record",
+  "name": "Entry",
+  "fields": [
+    {
+      "name": "fieldA",
+      "type": "string",
+      "default": "alpha"
+    }
+  ]
+}

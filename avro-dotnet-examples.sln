@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-GenericRecords", "src\01-GenericRecords\01-GenericRecords.csproj", "{6C336E8F-A1CC-4303-B1B4-07AAA1851AA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-GenericRecords", "src\01-GenericRecords\01-GenericRecords.csproj", "{6C336E8F-A1CC-4303-B1B4-07AAA1851AA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EAB8915A-0372-4887-B035-B7417068A76B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-SchemaEvolution", "src\02-SchemaEvolution\02-SchemaEvolution.csproj", "{F1FE319A-3BAD-495E-A3F4-0C07F9EE9148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{6C336E8F-A1CC-4303-B1B4-07AAA1851AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C336E8F-A1CC-4303-B1B4-07AAA1851AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C336E8F-A1CC-4303-B1B4-07AAA1851AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FE319A-3BAD-495E-A3F4-0C07F9EE9148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FE319A-3BAD-495E-A3F4-0C07F9EE9148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FE319A-3BAD-495E-A3F4-0C07F9EE9148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FE319A-3BAD-495E-A3F4-0C07F9EE9148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
